@@ -262,6 +262,7 @@ body{
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
     margin-top: 20px;
+   
 
 }
 .skill-box{
@@ -273,6 +274,7 @@ body{
    align-items: center;
    justify-content: center;
    transition: .6s ease-in-out;
+   box-shadow: 04px 10px rgba(0,255,255,0.4);
 }
 .skill-box img{
     height: 80%;
@@ -371,12 +373,10 @@ form button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 4px 10px rgba(0,255,255,0.4);
 }
 .footerbox p{
-    
 }
-
-
 
 
 
